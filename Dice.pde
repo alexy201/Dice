@@ -31,11 +31,14 @@ class Die //models one single dice cube
   {
     myX = x; myY = y;
     number = (int)(Math.random() * 6) + 1;
+    System.println(myX);
+    System.println(myY);
+    System.println(number);
   }
-  void roll()
-  {
+  //void roll()
+  //{
     //your code here
-  }
+  //}
   void show()
   {
     rect(myX, myY, 50, 50, 7);
