@@ -39,32 +39,32 @@ class Die //models one single dice cube
     rect(myX, myY, 50, 50, 7);
     fill(0);
     if (number == 1){
-      circle(myX + 25, myY + 25, 8);
+      ellipse(myX + 25, myY + 25, 8, 8);
     }else if (number == 2){
-      circle(myX + 10, myY + 10, 8);
-      circle(myX + 40, myY + 40, 8);
+      ellipse(myX + 10, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 40, 8, 8);
     }else if (number == 3){
-      circle(myX + 25, myY + 25, 8);
-      circle(myX + 10, myY + 10, 8);
-      circle(myX + 40, myY + 40, 8);
+      ellipse(myX + 25, myY + 25, 8, 8);
+      ellipse(myX + 10, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 40, 8, 8);
     }else if (number == 4){
-      circle(myX + 10, myY + 40, 8);
-      circle(myX + 40, myY + 10, 8);
-      circle(myX + 10, myY + 10, 8);
-      circle(myX + 40, myY + 40, 8);
+      ellipse(myX + 10, myY + 40, 8, 8);
+      ellipse(myX + 40, myY + 10, 8, 8);
+      ellipse(myX + 10, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 40, 8, 8);
     }else if (number == 5){
-      circle(myX + 25, myY + 25, 8);
-      circle(myX + 10, myY + 40, 8);
-      circle(myX + 40, myY + 10, 8);
-      circle(myX + 10, myY + 10, 8);
-      circle(myX + 40, myY + 40, 8);
+      ellipse(myX + 25, myY + 25, 8, 8);
+      ellipse(myX + 10, myY + 40, 8, 8);
+      ellipse(myX + 40, myY + 10, 8, 8);
+      ellipse(myX + 10, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 40, 8, 8);
     }else {
-      circle(myX + 10, myY + 40, 8);
-      circle(myX + 25, myY + 40, 8);
-      circle(myX + 25, myY + 10, 8);
-      circle(myX + 40, myY + 10, 8);
-      circle(myX + 10, myY + 10, 8);
-      circle(myX + 40, myY + 40, 8);
+      ellipse(myX + 10, myY + 40, 8, 8);
+      ellipse(myX + 25, myY + 40, 8, 8);
+      ellipse(myX + 25, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 10, 8, 8);
+      ellipse(myX + 10, myY + 10, 8, 8);
+      ellipse(myX + 40, myY + 40, 8, 8);
     }
     fill(255);
   }
