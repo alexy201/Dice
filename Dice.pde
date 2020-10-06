@@ -7,6 +7,7 @@ void draw()
 {
   //clear();
   //background(170);
+  text("HI",0,0);
   int sum = 0;
   for (int j = 0; j < 500; j += 50){
     for (int i = 0; i < 500; i += 50){
